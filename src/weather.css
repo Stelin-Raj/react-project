@@ -1,0 +1,136 @@
+.container.container_weather_main {
+    margin: 0px auto;
+    margin-top: 70px;
+    padding: 0;
+    border: 3px solid none;
+    text-align: center;
+    height: 70vh;
+    width: 30%;
+    /* position: relative; */
+    /* float: left; */
+    /* left: 100px; */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(16, 120, 244, 1) 71%, rgba(21, 192, 246, 1) 100%);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.weather_search_bar {
+    margin-top: 0px;
+    width: 80%;
+    border-radius: 0px 0px 20px 20px;
+    height: 50px;
+    font-size: 17px;
+    border: 1px solid grey;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+    background-color: rgb(224, 233, 248);
+}
+
+
+.weather_data {
+    padding: 20px;
+}
+
+p.weather_temp {
+    font-size: 70px;
+    font-family: 'BW Seido', Arial, sans-serif;
+    color: antiquewhite;
+    font-stretch: expanded;
+
+}
+
+p.weather_place {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+
+.cloud_status {
+    color: antiquewhite;
+}
+
+.welcome_msg {
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.app_img {
+    background-image: url('../cloud_sunny1.png');
+    background-size: cover;
+    transition: 0.4 ease-out;
+    width: 60%;
+    height: 160px;
+    border: 0px solid blue;
+    border-radius: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app_img_rainy {
+    background-image: url('../cloud_rainy2.png');
+    background-size: cover;
+    transition: 0.4 ease-out;
+    width: 52%;
+    height: 200px;
+    border: 0px solid blue;
+    border-radius: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .table_weather {
+    width: 30%;
+    color: black;
+    position: relative;
+    float: right;
+    top: 150px;
+    right:100px;
+    border:1px solid black;
+    height: 20vh;
+    background-color: rgb(4, 93, 201)}
+
+th{
+padding: 10px;
+color: rgb(213, 213, 213);
+}
+
+
+.remove_btn{
+    width: 50%;
+    text-align: center;
+    position:relative;
+    left: 100px;
+}
+
+td.city{
+    float: left;
+    margin-left:45px;
+}
+
+td.Temperature{
+    float: right;
+    margin-right: 45px;
+}
+
+.city_td{
+    float: left;
+    margin-left:45px;
+    color: white;
+}
+
+.Temperature_td{
+    position: relative;
+    right: 95px;
+    float: right;
+    color: white;
+}
+
+.save_btn{
+    position:relative;
+    width:100%;
+    text-align: center;
+    
+} */

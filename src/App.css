@@ -1,0 +1,104 @@
+body {
+  background: #FF8008;
+  background: -webkit-linear-gradient(to right, #FFC837, #FF8008);
+  background: linear-gradient(to right, #FFC837, #FF8008);
+}
+
+.navbar-expand-lg.navbar-light {
+  background-color: #00478F;
+}
+
+.form {
+  padding: 50px;
+  margin: 30px auto;
+  margin-top: 30px;
+  width: 70%;
+}
+
+table {
+  width: 100%;
+}
+
+tr td {
+  color: rgb(47, 47, 47);
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+
+button {
+  width: 100%;
+  margin: 5px;
+  padding: 0px
+}
+
+button.btn.btn-danger,
+button.btn.btn-info {
+  width: auto;
+}
+
+input.btn.btn-primary,
+input.btn.btn-success {
+  margin-top: 15px;
+}
+
+label {
+  font-weight: 600;
+}
+
+.table td,
+.table th {
+  padding: 0.75rem;
+  vertical-align: middle;
+  border-top: 1px solid #dee2e6;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+div.form {
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+a.navbar-brand {
+  font-size: 30px;
+  font-weight: 600;
+  color: white !important;
+}
+
+a.nav-link {
+  color: #D8E1E7 !important;
+  padding: 10px;
+  font-size: large;
+}
+
+.home_img {
+  background-image: url('../react_img1.jpg');
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+}
+
+h1.home_text {
+  color: rgb(0, 0, 0);
+  outline-color: black;
+  font-weight: 600;
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 67vh;
+  margin-bottom: 160px;
+  backdrop-filter: blur(10px) saturate(200%);
+  border-radius: 20px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 3px;
+}
+
+.table.table-dark, th, td{
+  background-color: orange;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
